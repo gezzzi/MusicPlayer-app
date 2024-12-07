@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="assets/test.ico">
+        <meta charset="utf-8">
+        <title>ミュージックプレイヤー</title>
+        <link rel="stylesheet" href="mp.css">
+    </head>
+    <body>
+        <div class="appfreme">
+            <h1>ミュージックプレイヤー</h1>
+            <img src="assets/saisei.png" alt="再生中画像">
+            <audio src="assets/bgm1.mp3" controls></audio>
+            <p>聞きたい曲を選んでね！
+                <a id="random" href="#">ランダム</a>
+            </p>
+            <ul>
+                <li data-file="assets/bgm1.mp3" class="active">ミュージック1</li>
+                <li data-file="assets/bgm2.mp3">ミュージック2</li>
+                <li data-file="assets/bgm3.mp3">ミュージック3</li>
+                <li data-file="assets/bgm4.mp3">ミュージック4</li>
+                <li data-file="assets/bgm5.mp3">ミュージック5</li>
+                <li data-file="assets/bgm6.mp3">ミュージック6</li>
+            </ul>
+
+            <script src="mp.js" charset="utf-8"></script>
+        </div>
+    </body>
+</html>
