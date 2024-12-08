@@ -1,5 +1,5 @@
 # MusicPlayer_app
- Music player by html, css, js.
+This app uses html, css, and js.
 
 https://gezzzi.github.io/MusicPlayer_app/
 
