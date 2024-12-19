@@ -1,0 +1,12 @@
+/* モバイルファースト */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* メディアクエリの例 */
+@media screen and (min-width: 768px) {
+  /* タブレット以上のスタイル */
+} 
